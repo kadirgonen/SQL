@@ -14,5 +14,10 @@ SELECT last_name FROM customer
 WHERE first_name='Jack' 
 
 /* 5 */
-SELECT * FROM film
-WHERE NOT length>50 AND NOT (rental_rate=2.99 OR rental_rate=4.99)
+SELECT * FROM book
+WHERE NOT length>40 AND NOT (rental_rate=2.98 OR rental_rate=5.98)
+
+/* OR */
+
+SELECT * FROM book
+WHERE NOT length>40 AND NOT rental_rate IN (2.98,5.98) *
