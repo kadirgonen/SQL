@@ -7,3 +7,4 @@ SELECT first_name,last_name FROM writer
 WHERE first_name IN ('Dan','Paul','Charles')
 
 /* 3 */
+SELECT * FROM book
