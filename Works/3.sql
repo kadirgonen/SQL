@@ -5,3 +5,5 @@ WHERE city LIKE 'A%a'
 /* 2 */
 SELECT city FROM city
 WHERE LENGTH(city) >= 6 AND city LIKE '%n'
+
+/* 3 */
