@@ -11,3 +11,4 @@ SELECT title FROM book
 WHERE title ILIKE '%T%%T%%T%%T%'
 
 /* 4 */
+SELECT * FROM book
