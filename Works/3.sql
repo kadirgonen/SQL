@@ -9,3 +9,5 @@ WHERE LENGTH(city) >= 6 AND city LIKE '%n'
 /* 3 */
 SELECT title FROM book
 WHERE title ILIKE '%T%%T%%T%%T%'
+
+/* 4 */
