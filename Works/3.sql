@@ -12,3 +12,4 @@ WHERE title ILIKE '%T%%T%%T%%T%'
 
 /* 4 */
 SELECT * FROM book
+WHERE title LIKE 'C%' AND length >85 AND rental_rate=2.98
