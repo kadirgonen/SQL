@@ -12,6 +12,6 @@ WHERE title LIKE 'T%' AND rating='G'
 SELECT COUNT(country) FROM country
 WHERE LENGTH(country)=5
 
-
+/* 5 */
 SELECT COUNT(city) FROM city
 WHERE city ILIKE '%R'
